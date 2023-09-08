@@ -15,7 +15,7 @@
      <!--oggetto draggabile css-->
 <style>
   #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
-  #draggable, #draggable-nonvalid { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }      
+  #draggable, #draggable-nonvalid {background-color:yellow;padding:2px;border-radius:5px;box-shadow:2px 1px; margin:10px 10px 10px; float: left; }      
 </style>
   <!--script funzionamento-->      
   <script>
@@ -38,12 +38,13 @@
     </script>
 </head>
 <body>
-  <div id="draggable-nonvalid" class="ui-widget-content">
-    <p>I&apos;m draggable but can&apos;t be dropped</p>
+  <div>"I Fiori di battisti? "</div>
+  <div>
+    <p id="draggable-nonvalid"  class="ui-widget-content">Fiori rosa</p>
   </div>
    
-  <div id="draggable" class="ui-widget-content">
-    <p>Drag me to my target</p>
+  <div>
+    <p id="draggable" class="ui-widget-content">Fiori di pesco</p>
   </div>
    
   <div id="droppable" class="ui-widget-header">
@@ -53,6 +54,10 @@
 
 
 
+
+
+</body>
+</html>
 
 
 </body>
